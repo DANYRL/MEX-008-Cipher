@@ -29,3 +29,8 @@ mensaje cifrado que la referencia a través de cualquier medio, ante el temor de
 automático.
 Como ya están familiarizados con este tipo de tecnología, creen que se les facilitará y lo comparan con la generación de un "token", 
 utilizado para realizar sus operaciones bancarias.
+
+FUNCIONALIDAD
+--------------------------------------------
+El usuario ingresa a la página principal, donde tendrá 2 opciones: INGRESAR REFERENCIA A CIFRAR, entonces, una vez que ha generado su 
+referencia de retiro bancario, la ingresa a esta opción y oprime INICIAR, en ese momento será transferido a la página de CIFRADO DE REFERENCIA y estará listo su código para ser enviado a su hijo. Si elige la opción de INGRESAR CÓDIGO PARA DESCIFRAR REFERENCIA, el adolescente, deberá ingresar el código enviado por su padre, oprimir el botón INICIAR y será transferido a la página de REFERENCIA DESCIFRADA, por lo que podrá ingresar al cajero automático a realizar su retiro. 
