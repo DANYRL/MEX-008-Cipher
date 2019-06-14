@@ -1,0 +1,40 @@
+body{
+  background:url(https://dmej8g5cpdyqd.cloudfront.net/blog/wp-content/uploads/2013/12/security.jpg);
+  background-repeat:repeat-x;
+  background-size:170px;
+}
+h1{
+  position:relative;
+  top:120px;
+  left:37%;
+  color:black;
+
+}
+
+h2{
+  position:relative;
+  top:160px;
+  left:45%;
+  color:black;
+
+}
+form{
+  position: relative;
+  top:200px;
+  left:100%
+  width:25%;
+  margin:20px;
+  padding:20px;
+  width:100%
+}
+input:focus, textarea:focus
+}
+  color: blue;
+  text-align: center;
+}
+footer-style{
+  background-color: grey;
+  width: 100%;
+  padding: 5px 0px;
+  margin: 12px 0;
+}
