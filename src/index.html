@@ -2,79 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <!--Título que aparece dentro de mi url-->
-    <title>"Pasword Cash"</title>
-    <!--Link para importar mi archivo a css, siempre va en el head-->
-    <link rel="stylesheet" href="style.css" />
+      <title>"Pasword Cash"</title>  <!--Título que aparece dentro de mi url-->
+    <link rel="stylesheet" href="style.css" /><!--Link para importar mi archivo a css, siempre va en el head-->
   </head>
   <body>
-    <div id="root" class="">
-      <!--Mi encabezado principal-->
-      <h1>Bienvenid@ a Password Cash!</h1>
-        <!--Preguntamos al usuario qué desea hacer, habrá input para cifrado y otro para descifrado-->
-      <h2>¿Qué deseas hacer?</h2>
-    <center>
-    <form>
-      <!--Input para ingresar Referencia a cifrar -->
-      <input type="text" id="Ingresar referencia" placeholder="Ingresar referencia a cifrar">
-      <p><!--Botón para inicio de cifrado -->
-      <input type="submit" value="Iniciar cifrado">
-    </p>
-    </form>
-    <form>
+    <div id="inicio" class="">
+      <h1>Bienvenid@ a Password Cash!</h1><!--Mi encabezado principal-->
+      <h2>¿Qué deseas hacer?</h2><!--Preguntamos al usuario qué desea hacer, habrá input para cifrado y otro para descifrado-->
+      <form>
+        <textarea id="ingresar-referencia" placeholder="Ingresar referencia a cifrar"></textarea><!--Input para ingresar Referencia a cifrar -->
+        <p>
+        <button id="iniciar-cifrado" class="button"> &nbsp&nbspIniciar &nbsp cifrado&nbsp&nbsp </button><!--Botón para inicio de cifrado -->
+        </p>
+      </form>
+      <form>
       <!--Input para ingresar código y revelar Referencia -->
-      <input type="text" id="Ingresar código a descifrar" placeholder="Ingresar código para revelar referencia">
-      <p>
-      <input type="submit" value="Iniciar descifrado">
-    </p>
-    </form>
-    </center>
-  </div>
-     <!--Agregando un pie de página para dar los créditos al desarrollador-->
-     <footer class='footer-style'>Daniela Rivera Lujano // DESARROLLADORES PROFESIONALES
-         </footer>
-  </div>
-  <div id="página cifrado" class="disappear">
-    <!--Mi encabezado principal para la página de cifrado-->
-    <h2>Obten tu código secreto</h2>
-    <p>
-      <!--Aparece la leyenda que indica el código secreto en lugar de la referencia bancaria-->
-    <h2>Tu referencia bancaria generó el siguiente código secreto</h2>
-    </p>
-    <form>
-    <!--Input para ingresar Referencia a cifrar -->
-    <!--<input type="text" id="Ingresar referencia" placeholder="Ingresar referencia a cifrar">-->
-    <!--Botón para inicio de cifrado -->
-    <!--<input type="submit" value="Iniciar cifrado">-->
-  </form>
-  <!--Requiero agregar una caja de texto donde aparezca el código secreto en lugar de la referencia-->
-  </form>
-  <footer> <!--Agregando un pie de página para dar los créditos al desarrollador-->
-    <p>Daniela Rivera Lujano // DESARROLLADORES PROFESIONALES</p>
-  </footer>
-</div>
-<div id="página de descifrado" class="">
-  <!--Mi encabezado principal para la página de descifrado-->
-  <h2>Obten tu referencia para retirar efectivo</h2>
-  <p>
-    <!--Aparece la leyenda que revela la referencia bancaria-->
-  <h2>Tu código secreto reveló la siguiente referencia para retirar efectivo </h2>
-  </p>
-  <form>
-  <!--Input para ingresar Referencia a cifrar -->
-  <!--<input type="text" id="Ingresar referencia" placeholder="Ingresar referencia a cifrar">-->
-  <!--Botón para inicio de cifrado -->
-  <!--<input type="submit" value="Iniciar cifrado">-->
-</form>
-<!--Requiero agregar una caja de texto donde aparezca el código secreto en lugar de la referencia-->
-</form>
-  <p>Ahora puedes acudir al cajero automático a realizar tu retiro.</p>
-<footer> <!--Agregando un pie de página para dar los créditos al desarrollador-->
-  <p>Daniela Rivera Lujano // DESARROLLADORES PROFESIONALES</p>
-</footer>
-</div>
-    <!--Link para importar mi archivo a javascript, siempre va antes de terminar el body-->
+        <textarea id="ingresar-codigo" placeholder="Ingresar código para revelar referencia"></textarea>
+        <p>
+        <button id="iniciar-descifrado" class="button">Iniciar descifrado</button>
+        </p>
+      </form>
+    </div>
+    <div id="pagina-de-cifrado" class="disappear">
+      <h2>Obten tu código secreto</h2>   <!--Mi encabezado principal para la página de cifrado-->
+      <p>Tu referencia bancaria generó el siguiente código secreto:</p><!--Aparece la leyenda que indica el código secreto en lugar de la referencia bancaria-->
+      <p id="mostrar-codigo" class=""></p>
+    </div>
+    <div id="pagina-de-descifrado" class="disappear">
+      <h2>Obten tu referencia para retirar efectivo</h2><!--Mi encabezado principal para la página de descifrado-->
+      <p>Tu código secreto reveló la siguiente referencia para retirar efectivo </p><!--Aparece la leyenda que revela la referencia bancaria-->
+      <p id="mostrar-referencia" class=""></p>
+      <p>Ahora puedes acudir al cajero automático a realizar tu retiro.</p>
+    </div>
+    <footer><b>DANIELA RIVERA LUJANO</b> / <em>Desarrolladores profesionales</em></footer>
+       <!--Link para importar mi archivo a javascript, siempre va antes de terminar el body-->
     <script src="cipher.js"></script>
-    <script src="app.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
