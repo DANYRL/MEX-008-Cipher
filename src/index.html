@@ -9,34 +9,32 @@
     <div id="inicio" class="">
       <h1>Bienvenid@ a Password Cash!</h1><!--Mi encabezado principal-->
       <h2>¿Qué deseas hacer?</h2><!--Preguntamos al usuario qué desea hacer, habrá input para cifrado y otro para descifrado-->
-      <form>
-        <textarea id="ingresar-referencia" placeholder="Ingresar referencia a cifrar"></textarea><!--Input para ingresar Referencia a cifrar -->
+        <textarea id="ingresar-referencia" placeholder="Ingresar referencia a cifrar" class="textarea"></textarea><!--Input para ingresar Referencia a cifrar -->
         <p>
         <button id="iniciar-cifrado" class="button"> &nbsp&nbspIniciar &nbsp cifrado&nbsp&nbsp </button><!--Botón para inicio de cifrado -->
         </p>
-      </form>
-      <form>
       <!--Input para ingresar código y revelar Referencia -->
-        <textarea id="ingresar-codigo" placeholder="Ingresar código para revelar referencia"></textarea>
+        <textarea id="ingresar-codigo" placeholder="Ingresar código para revelar referencia" class=textarea></textarea>
         <p>
         <button id="iniciar-descifrado" class="button">Iniciar descifrado</button>
         </p>
-      </form>
     </div>
     <div id="pagina-de-cifrado" class="disappear">
-      <h2>Obten tu código secreto</h2>   <!--Mi encabezado principal para la página de cifrado-->
-      <p>Tu referencia bancaria generó el siguiente código secreto:</p><!--Aparece la leyenda que indica el código secreto en lugar de la referencia bancaria-->
+      <h2>Obten tu código secreto!!!</h2>   <!--Mi encabezado principal para la página de cifrado-->
+      <h4>Tu referencia bancaria generó el siguiente código secreto:</h4>
       <p id="mostrar-codigo" class=""></p>
+      <h5>Ahora puedes enviar tu referencia para retiro con seguridad</h5><!--Aparece la leyenda que indica el código secreto en lugar de la referencia bancaria-->
+
     </div>
     <div id="pagina-de-descifrado" class="disappear">
-      <h2>Obten tu referencia para retirar efectivo</h2><!--Mi encabezado principal para la página de descifrado-->
-      <p>Tu código secreto reveló la siguiente referencia para retirar efectivo </p><!--Aparece la leyenda que revela la referencia bancaria-->
+      <h2>Obten tu referencia para retirar efectivo!!!</h2><!--Mi encabezado principal para la página de descifrado-->
+      <h4>Tu código secreto reveló la siguiente referencia para retirar efectivo </h4><!--Aparece la leyenda que revela la referencia bancaria-->
       <p id="mostrar-referencia" class=""></p>
-      <p>Ahora puedes acudir al cajero automático a realizar tu retiro.</p>
+      <h5>Ahora puedes acudir al cajero automático a realizar tu retiro.</h5>
     </div>
     <footer><b>DANIELA RIVERA LUJANO</b> / <em>Desarrolladores profesionales</em></footer>
        <!--Link para importar mi archivo a javascript, siempre va antes de terminar el body-->
-    <script src="cipher.js"></script>
     <script src="index.js"></script>
+    <script src="cipher.js"></script>
   </body>
 </html>
