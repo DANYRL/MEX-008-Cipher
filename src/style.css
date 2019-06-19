@@ -26,7 +26,7 @@ h1{
 
 h2{
   position:relative;
-  top:160px;
+  top:120px;
   left:45%;
   color:black;
 }
@@ -45,9 +45,18 @@ h5{
   color:black;
 }
 
+input{
+  position: relative;
+  top:120px;
+  left:600px;
+  margin:20px;
+  padding:8px;
+  width:12%
+}
+
 #ingresar-referencia{
   position: relative;
-  top:150px;
+  top:100px;
   left:480px;
   margin:20px;
   padding:8px;
@@ -57,7 +66,7 @@ h5{
   color: #0A171A;
   background-color: #1913CB;
   position: relative;
-  top:115px;
+  top:70px;
   left:620px;
   padding-left: 3px;
   padding-right: 3px;
@@ -75,7 +84,7 @@ h5{
 }
 #ingresar-codigo{
   position: relative;
-  top:100px;
+  top:60px;
   left:480px;
   margin:20px;
   padding:8px;
@@ -85,7 +94,7 @@ h5{
   color: #0A171A;
   background-color: #1913CB;
   position: relative;
-  top:65px;
+  top:35px;
   left:620px;
   padding-left: 3px;
   padding-right: 3px;
@@ -104,7 +113,7 @@ h5{
 footer {
   position: relative;
   /* Altura total del footer en px con valor negativo */
-  margin-top: 190px;
+  margin-top: 95px;
   /* Altura del footer en px. Se han restado los 5px del margen
   superior mas los 5px del margen inferior
   */
