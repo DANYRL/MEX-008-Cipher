@@ -1,7 +1,7 @@
 window.cipher = {//Cipher es objeto, se crea en él metodo de cifrar y descifrar (metodo=funciones dentro de un objeto)
  encode : (offset,string)=> {//metodo encode, contiene los argumentos "ingredientes" (offset, string)
-	offset = parseInt(offset)
-	let result = "";
+  let result = "";
+  offset = parseInt(offset)
 	string = string.toUpperCase();
 	for(let i=0; i<string.length; i++){
 	const ascii = string[i].charCodeAt();

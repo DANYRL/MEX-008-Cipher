@@ -4,20 +4,21 @@
     <meta charset="utf-8">
       <title>"Pasword Cash"</title>  <!--Título que aparece dentro de mi url-->
     <link rel="stylesheet" href="style.css" /><!--Link para importar mi archivo a css, siempre va en el head-->
+    <link rel="icon" type="image/jpg" href=https://dmej8g5cpdyqd.cloudfront.net/blog/wp-content/uploads/2013/12/security.jpg>/
   </head>
   <body>
     <div id="inicio" class="">
       <h1>Bienvenid@ a Password Cash!</h1><!--Mi encabezado principal-->
       <h2>¿Qué deseas hacer?</h2><!--Preguntamos al usuario qué desea hacer, habrá input para cifrado y otro para descifrado-->
-        <textarea id="ingresar-referencia" placeholder="Ingresar referencia a cifrar. SOLO ACEPTA MAYUSCULAS" class="textarea"></textarea><!--Input para ingresar Referencia a cifrar -->
+        <textarea id="ingresar-referencia" placeholder="      Ingresar referencia a cifrar" class="textarea"></textarea><!--Input para ingresar Referencia a cifrar -->
         <p>
         <button id="iniciar-cifrado" class="button"> &nbsp&nbspIniciar &nbsp cifrado&nbsp&nbsp </button><!--Botón para inicio de cifrado -->
-        <input id="nivel-de-seguridad-elegido" placeholder="Elige tu nivel de seguridad" class="input">
+        <input id="nivel-de-seguridad-elegido" placeholder="Ingresar nivel de seguridad deseado" class="input">
         </p>
-        <textarea id="ingresar-codigo" placeholder="Ingresar código para revelar referencia. SOLO ACEPTA MAYUSCULAS" class="textarea"></textarea>
+        <textarea id="ingresar-codigo" placeholder="Ingresar código para revelar referencia" class="textarea"></textarea>
         <p>
         <button id="iniciar-descifrado" class="button">Iniciar descifrado</button>
-        <input id="nivel-de-seguridad-otorgado" placeholder="Elige el nivel de seguridad que te otorgaron" class="input">
+        <input id="nivel-de-seguridad-otorgado" placeholder="Ingresar nivel de seguridad otorgado" class="input">
         </p>
     </div>
     <div id="pagina-de-cifrado" class="disappear">
@@ -25,15 +26,17 @@
       <h4>Tu referencia bancaria generó el siguiente código secreto:</h4>
       <p id="mostrar-codigo" class="disappear"></p>
       <h5>Ahora puedes enviar tu referencia para retiro con seguridad</h5><!--Aparece la leyenda que indica el código secreto en lugar de la referencia bancaria-->
+      <button id="regresar-cif" class="">Regresar</button>
     </div>
     <div id="pagina-de-descifrado" class="disappear">
       <h2>Obten tu referencia para retirar efectivo!!!</h2><!--Mi encabezado principal para la página de descifrado-->
       <h4>Tu código secreto reveló la siguiente referencia para retirar efectivo </h4><!--Aparece la leyenda que revela la referencia bancaria-->
       <p id="mostrar-referencia" class="disappear"></p>
       <h5>Ahora puedes acudir al cajero automático a realizar tu retiro.</h5>
+      <button id="regresar-des" class="">Regresar</button>
     </div>
-    <!--<footer><b>DANIELA RIVERA LUJANO</b> / <em>Desarrolladores profesionales</em></footer>
-       <!--Link para importar mi archivo a javascript, siempre va antes de terminar el body-->
+    <footer><b>DANIELA RIVERA LUJANO</b> / <em>Desarrolladores profesionales</em></footer>
+           <!--Link para importar mi archivo a javascript, siempre va antes de terminar el body-->
     <script src="index.js"></script>
     <script src="cipher.js"></script>
   </body>

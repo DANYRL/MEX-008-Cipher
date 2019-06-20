@@ -15,13 +15,11 @@ form{
   color:black;
 }
 
-
 h1{
   position:relative;
   top:120px;
   left:37%;
   color:black;
-
 }
 
 h2{
@@ -45,29 +43,21 @@ h5{
   color:black;
 }
 
-input{
-  position: relative;
-  top:120px;
-  left:600px;
-  margin:20px;
-  padding:8px;
-  width:12%
-}
-
 #ingresar-referencia{
   position: relative;
   top:100px;
-  left:480px;
+  left:530px;
   margin:20px;
   padding:8px;
-  width:30%
+  width:22%;
 }
+
 #iniciar-cifrado{
   color: #0A171A;
   background-color: #1913CB;
   position: relative;
-  top:70px;
-  left:620px;
+  top:52px;
+  left:750px;
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 3px;
@@ -85,17 +75,17 @@ input{
 #ingresar-codigo{
   position: relative;
   top:60px;
-  left:480px;
+  left:530px;
   margin:20px;
   padding:8px;
-  width:30%
+  width:22%
 }
 #iniciar-descifrado{
   color: #0A171A;
   background-color: #1913CB;
   position: relative;
-  top:35px;
-  left:620px;
+  top:10px;
+  left:750px;
   padding-left: 3px;
   padding-right: 3px;
   padding-top: 3px;
@@ -110,24 +100,70 @@ input{
   font-weight:bold;/*Aplica negritas al texto*/
   font-size: 20px;
 }
+
+#nivel-de-seguridad-elegido{
+background-color: #DCDCE1;
+padding: 10px;
+position: relative;
+top:50px;
+left:260px;
+margin:20px;
+padding:8px;
+width:16%;
+}
+
+#nivel-de-seguridad-otorgado{
+  background-color: #DCDCE1;
+  padding: 10px;
+  position: relative;
+  top:9px;
+  left:260px;
+  margin:20px;
+  padding:8px;
+  width:16%;
+}
+#mostrar-codigo{
+  background-color: #DCDCE1;
+  padding: 10px;
+  position: relative;
+  top:200px;
+  left:585px;
+  margin:20px;
+  padding:8px;
+  width:16%;
+}
+#mostrar-referencia{
+  background-color: #DCDCE1;
+  padding: 10px;
+  position: relative;
+  top:200px;
+  left:585px;
+  margin:20px;
+  padding:8px;
+  width:16%;
+}
 footer {
   position: relative;
   /* Altura total del footer en px con valor negativo */
   margin-top: 95px;
-  /* Altura del footer en px. Se han restado los 5px del margen
-  superior mas los 5px del margen inferior
-  */
   height: 20px;
   padding:5px 0px;
   clear: both;
   background:url(https://dmej8g5cpdyqd.cloudfront.net/blog/wp-content/uploads/2013/12/security.jpg);
   text-align: center;
   color: #fff;
+  bottom: 0;
+  position: fixed
 }
- /* Esta clase define la anchura del contenido y la posicion centrada
- El contenido queda centrado y limitado, pero la cabecera y el pie
- llegan hasta los limites del navegador.
-        */
-.define {
-  width:960px;
-  margin:0 auto;
+
+#regresar-cif{
+   position: relative;
+   margin-top: 315px;
+   left:700px;
+   color: black;
+ }
+ #regresar-des{
+   position: relative;
+   margin-top: 315px;
+   left:700px;
+ }

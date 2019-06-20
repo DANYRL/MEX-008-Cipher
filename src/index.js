@@ -10,8 +10,18 @@ const paginaDeCifrado=document.getElementById("pagina-de-cifrado");
 const mostrarCodigo=document.getElementById("mostrar-codigo");
 const paginaDeDescifrado=document.getElementById("pagina-de-descifrado");
 const mostrarReferencia=document.getElementById("mostrar-referencia");
+const regresarCif=document.getElementById("regresar-cif");
+const regresarDes=document.getElementById("regresar-des");
 
 //Declaracion de funciones
+const regresarDeCifAInicio = () => {
+  inicio.classList.remove('disappear');
+  paginaDeCifrado.classList.add('disappear');//desaparece página donde indica qué quieres
+}
+const regresarDeDesAInicio = () => {
+  inicio.classList.remove('disappear');
+  paginaDeDescifrado.classList.add('disappear');//desaparece página donde indica qué quieres
+}
 const irAPaginaDeCifrado = () => {//constante pagina de CIFRADO
   paginaDeCifrado.classList.remove('disappear');//aparece página donde se va a mostrar la referencia ENCRIPTADA
   inicio.classList.add('disappear');//desaparece página donde indica qué quieres hacer
@@ -43,5 +53,7 @@ const mostrarReferenciaCifrada=()=>{
 //Declarando eventos
 iniciarCifrado.addEventListener('click',irAPaginaDeCifrado);
 iniciarDescifrado.addEventListener('click',irAPaginaDeDescifrado);
+regresarCif.addEventListener('click',regresarDeCifAInicio);
+regresarDes.addEventListener('click',regresarDeDesAInicio);
 // iniciarCifrado.addEventListener('click',mostrarCodigoSecreto);
 //iniciarDescifrado.addEventListener('click',mostrarReferenciaCifrada);
