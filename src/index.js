@@ -1,10 +1,10 @@
 //Declaracion de variables
 const inicio=document.getElementById("inicio");
-const nivelDeSeguridadElegido=document.getElementById("nivel-de-seguridad-elegido");
-const nivelDeSeguridadOtorgado=document.getElementById("nivel-de-seguridad-otorgado");
-const ingresarReferencia=document.getElementById("ingresar-referencia");
+//const nivelDeSeguridadElegido=document.getElementById("nivel-de-seguridad-elegido");//
+//const nivelDeSeguridadOtorgado=document.getElementById("nivel-de-seguridad-otorgado");
+//const ingresarReferencia=document.getElementById("ingresar-referencia");
 const iniciarCifrado=document.getElementById("iniciar-cifrado");
-const ingresarCodigo=document.getElementById("ingresar-codigo");
+//const ingresarCodigo=document.getElementById("ingresar-codigo");
 const iniciarDescifrado=document.getElementById("iniciar-descifrado");
 const paginaDeCifrado=document.getElementById("pagina-de-cifrado");
 const mostrarCodigo=document.getElementById("mostrar-codigo");
