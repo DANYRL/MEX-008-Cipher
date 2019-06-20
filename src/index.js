@@ -15,11 +15,13 @@ const mostrarReferencia=document.getElementById("mostrar-referencia");
 const irAPaginaDeCifrado = () => {//constante pagina de CIFRADO
   paginaDeCifrado.classList.remove('disappear');//aparece página donde se va a mostrar la referencia ENCRIPTADA
   inicio.classList.add('disappear');//desaparece página donde indica qué quieres hacer
+  mostrarCodigoSecreto()
 }
 
 const irAPaginaDeDescifrado=()=>{//constante página de DESCIFRADO
   paginaDeDescifrado.classList.remove('disappear');//aparece página donde se va a revelar la referencia (DESCIFRADO)
   inicio.classList.add('disappear');//desaparece página donde indica qué quieres hacer
+  mostrarReferenciaCifrada()
 }
 
 const mostrarCodigoSecreto=()=>{//Crear constante para mostrar REFERENCIA CIFRADA
@@ -41,5 +43,5 @@ const mostrarReferenciaCifrada=()=>{
 //Declarando eventos
 iniciarCifrado.addEventListener('click',irAPaginaDeCifrado);
 iniciarDescifrado.addEventListener('click',irAPaginaDeDescifrado);
-iniciarCifrado.addEventListener('click',mostrarCodigoSecreto);
-iniciarDescifrado.addEventListener('click',mostrarReferenciaCifrada);
+// iniciarCifrado.addEventListener('click',mostrarCodigoSecreto);
+//iniciarDescifrado.addEventListener('click',mostrarReferenciaCifrada);
